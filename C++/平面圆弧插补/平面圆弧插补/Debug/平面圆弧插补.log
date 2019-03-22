@@ -1,0 +1,16 @@
+﻿Build started 2019/3/21 20:45:19.
+     1>Project "C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\平面圆弧插补\平面圆弧插补.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ID:\eigen3 /I"D:\visual studio\VC\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\eigen3\eigen\src\core\arch\cuda\half.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\cheryl\desktop\平面圆弧插补\c++\平面圆弧插补\平面圆弧插补\source.cpp(198): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\cheryl\desktop\平面圆弧插补\c++\平面圆弧插补\平面圆弧插补\source.cpp(155): warning C4101: 'residual' : unreferenced local variable
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\Debug\平面圆弧插补.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\Debug\平面圆弧插补.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\Debug\平面圆弧插补.lib" /MACHINE:X86 Debug\Source.obj
+         平面圆弧插补.vcxproj -> C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\Debug\平面圆弧插补.exe
+     1>Done Building Project "C:\Users\Cheryl\Desktop\平面圆弧插补\C++\平面圆弧插补\平面圆弧插补\平面圆弧插补.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.19

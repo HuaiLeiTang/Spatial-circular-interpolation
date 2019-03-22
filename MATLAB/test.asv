@@ -1,0 +1,44 @@
+%开始计时
+tic
+clear
+
+%起始点、终止点
+
+A = [-1,-0.5,0.22];
+C = [0.4,0.65,0.76];
+
+%计算dz
+deta_d = cal_d(A,C);
+
+%计算中间点
+B = cal_Poi(A,C,deta_d);
+
+%水平的两个点
+%if d(3) == 0
+    %p2 = CalP2_0(p3,p1);
+%垂直于xoy平面
+%elseif d(2) == 0 && d(1) == 0
+    %p2 = CalP2_1(p3,p1);
+%else
+    %p2 = CalP2_2(p3,p1);
+%end
+
+%插补次数
+stepL = CalStepL(A,C);
+
+center = CircleCenter(A, B, C);
+rad = CircleRad(A,center);
+
+%插补
+p = CirInter(A,B,C,center,rad,stepL);
+n = size(p,2);
+for i=1:n
+    plot3(p(1,i),p(2,i),p(3,i),'-*r');
+    hold on
+end
+
+axis ([-1 1 -1 1 0 1])
+
+grid on
+
+toc
